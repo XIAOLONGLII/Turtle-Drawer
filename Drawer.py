@@ -33,7 +33,7 @@ def setUpTurtle():
 def main():
     tess = setUpTurtle()
     
-    for steps in range(500):
+    for steps in range(5500):
         direction = random.random()
         if direction < 1/4:
             tess.right(90)
